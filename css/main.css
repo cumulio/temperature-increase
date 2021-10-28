@@ -218,6 +218,10 @@ body {
   flex-direction: row;
   align-items: center;
 }
+
+.info-page img {
+  max-width: 100%;
+}
 /* Media queries */
 @media (min-width: 992px) {
   #sidebar {
