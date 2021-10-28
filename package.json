@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@cumul.io/cumulio-dashboard": "^1.0.4"
+  }
+}
