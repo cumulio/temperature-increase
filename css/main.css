@@ -222,6 +222,10 @@ body {
   align-items: center;
 }
 
+.info-page .powered-by img{
+  max-height: 2rem;
+}
+
 .info-page img {
   max-width: 100%;
 }
