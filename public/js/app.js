@@ -3,10 +3,10 @@ const dashboardOptions = {
   dashboardId: dashboardId,
   container: "#dashboard-container",
   loader: {
-    background: "#EEF3F6",
-    spinnerColor: "#004CB7",
-    spinnerBackground: "#DCDCDC",
-    fontColor: "#000000",
+    background: "#32313d",
+    spinnerColor: "#d12b2b",
+    spinnerBackground: "#2c374f",
+    fontColor: "#eeeeee",
   },
 };
 
