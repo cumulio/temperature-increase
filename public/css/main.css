@@ -84,18 +84,20 @@ body {
 }
 
 #sidebar li {
-  line-height: 2.5rem;
   position: relative;
   min-width: 10rem;
   font-weight: 700;
   letter-spacing: 0.0625rem;
-  line-height: 2.5rem;
   padding: 0 1.5rem;
   cursor: pointer;
   color: rgba(255, 255, 255, 0.3);
   transition: all 0.3s ease;
   border-radius: 0.25rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#sidebar li a {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 #sidebar li:after {
@@ -110,7 +112,8 @@ body {
   top: 1.1875rem;
 }
 
-#sidebar li:hover {
+#sidebar li:hover,
+#sidebar li a:hover {
   color: rgba(255, 255, 255, 0.8);
 }
 

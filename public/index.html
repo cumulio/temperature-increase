@@ -32,8 +32,8 @@
       crossorigin="anonymous"
     />
     <link href="css/main.css" rel="stylesheet" />
-    <!-- <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" /> -->
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/png" />
+    <link rel="icon" href="images/favicon.ico" type="image/png" />
     <!-- add cumul.io embed script or install & use cumulio-react, cumulio-react-native or angular lib ngx-cumulio -->
     <script src="https://cdn-a.cumul.io/js/cumulio.min.js"></script>
     <title>Cumul.io Temperature Rise App</title>
@@ -60,10 +60,51 @@
                 class="menu-item active"
                 onclick="loadDashboard(this)"
               >
-                Global Temperature Rises
+                Global Temperature Rise
               </li>
               <li id="info" class="menu-item" onclick="loadInfo(this)">
                 Information
+              </li>
+              <li class="menu-item">
+                <a
+                  id="difference"
+                  href="https://yaleclimateconnections.org/2021/08/1-5-or-2-degrees-celsius-of-additional-global-warming-does-it-make-a-difference/"
+                >
+                  Does it make a difference?
+                </a>
+              </li>
+              <li class="menu-item">
+                <a
+                  id="consequences"
+                  href="https://ec.europa.eu/clima/climate-change/climate-change-consequences_en"
+                >
+                  Consequences
+                </a>
+              </li>
+              <li class="menu-item">
+                <a
+                  id="ipcc"
+                  href="https://www.ipcc.ch/2021/08/09/ar6-wg1-20210809-pr/"
+                >
+                  Widespread, Rapid, and Intensifying – IPCC
+                </a>
+              </li>
+              <li class="menu-item">
+                <a
+                  id="wmo"
+                  href="https://public.wmo.int/en/media/press-release/climate-change-triggers-mounting-food-insecurity-poverty-and-displacement-africa"
+                >
+                  Mounting food insecurity, poverty and displacement - WMO
+                </a>
+              </li>
+              <li class="menu-item">
+                <a
+                  id="rs"
+                  class="menu-item"
+                  href="https://royalsociety.org/topics-policy/projects/climate-change-evidence-causes/question-8/"
+                >
+                  CO2 and Warming - The Royal Society
+                </a>
               </li>
             </ul>
           </div>
